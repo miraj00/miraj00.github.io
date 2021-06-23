@@ -48,3 +48,46 @@ header nav ul li a  {
     background-position: center;
     
 }   
+
+
+
+
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color:rgb(58, 51, 51);
+    padding-top: 30px;
+  }
+ 
+footer h2 {
+     margin: 20px 0;
+     font-size: 50px;
+     border-right: 5px solid blue;
+     padding-right: 30px;
+     padding-left: 150px;
+  }
+ 
+footer nav ul {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+
+     list-style: none;
+     border-bottom: 5px solid rgb(152, 152, 223);
+     padding-right: 100px;
+     padding-bottom: 20px;
+     padding-top: 20px;
+     box-sizing: content-box;
+     width: 100%;
+     align-items: center;
+ }
+ 
+footer nav ul li a  {
+    color: rgb(58, 51, 51);
+     padding: 30px 50px;
+     font-size: 15px;
+     text-decoration: none;
+ }
