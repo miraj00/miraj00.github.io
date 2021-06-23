@@ -8,11 +8,9 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  
 }
 
 header h1  {
-   
    background: rgb(152, 152, 223); 
    margin: 30px;
 }  
@@ -20,7 +18,6 @@ header h1  {
 header a  {
     text-decoration: none;
     color: rgb(58, 51, 51);
-    
 }
 
 header nav {
@@ -28,15 +25,26 @@ header nav {
 }
 
 header nav ul {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-align-items: center;
-list-style: none;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    border-bottom: 5px solid rgb(152, 152, 223);
+    padding-bottom: 10px;
+    
 }
+
 header nav ul li a  {
     color: rgb(152, 152, 223);
     padding: 30px 50px;
-    font-size: 20px;
+    font-size: 25px;
 }
+
+.hero {
+    height: 300px;
+    width: 100%;
+    background-image: url("../miraj00.github.io/assets/images/hero.JPEG"); 
+    background-size: cover;
+    background-position: center;
+    
+}   
