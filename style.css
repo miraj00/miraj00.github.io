@@ -43,7 +43,7 @@ header nav ul li a  {
 .hero {
     height: 300px;
     width: 100%;
-    background-image: url("../miraj00.github.io/assets/images/hero.JPEG"); 
+    background-image: url("./hero.JPEG"); 
     background-size: cover;
     background-position: center;
     
@@ -141,7 +141,7 @@ header nav ul li a  {
 footer nav ul {
     
     box-sizing: content-box;
-    width: 120%;
+    width: 140%;
     height: 120px;
 
     display: flex; 
