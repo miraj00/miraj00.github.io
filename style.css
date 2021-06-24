@@ -49,27 +49,123 @@ header nav ul li a  {
     
 }   
 
+/* --------------------------------------------------------------------  */
+.about-info {
+    width: 100%;
+    margin: 0, auto;
+
+    display: flex;
+    flex-wrap: none;
+    justify-content: space-around;
+    align-items: stretch;
+    flex: 1;
+}
+.about { 
+    margin: 5px;
+    color:rgb(58, 51, 51);
+    
+    
+}
+.about h2  {
+    width: 70%;
+    height: 360px;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 50px;
+    border-right: 5px solid blue;
+    flex-grow: 2;
+   
+}
+.about h3, .about h4 {
+    width: 96%;
+    font-size: 20px;
+    text-align: left;
+    padding: 5px;
+    margin-left: 30px;
+    margin-top: 35px;
+    
+}
+.about p {
+     font size: 25px;
+     margin-left: 30px;
+     }
+
+
+/* --------------------------------------------------------------------  */
+/*
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    color: rgb(58, 51, 51);
+    
+  }
+ .container h2  {
+    margin: 20px 0;
+    font-size: 50px;
+    border-right: 5px solid blue;
+    padding-right: 30px;
+    padding-left: 250px;
+ }
+
+ .container p, pre  {
+     font-size: 20px;
+     
+ }
+
+*/
 
 
 
 
+
+
+
+
+ #work {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    color: rgb(58, 51, 51);
+    
+  }
+ #work h2  {
+    margin: 20px 0;
+    font-size: 50px;
+    border-right: 5px solid blue;
+    padding-right: 30px;
+    padding-left: 350px;
+ }
+
+/* ----------------------------------------------------------------------*/
 
 footer {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    flex: 1;
     color:rgb(58, 51, 51);
     padding-top: 30px;
   }
  
 footer h2 {
-     margin: 20px 0;
+     margin: 10px 0;
      font-size: 50px;
      border-right: 5px solid blue;
      padding-right: 30px;
-     padding-left: 150px;
+     padding-left: 0;
+     padding-top: 5px;
+     flex-shrink: 2 ;
+     
   }
- 
+  /* ----------------------------------------------------------------------*/
+ /*
 footer nav ul {
      display: flex;
      flex-wrap: wrap;
@@ -83,11 +179,44 @@ footer nav ul {
      box-sizing: content-box;
      width: 100%;
      align-items: center;
+     
  }
  
 footer nav ul li a  {
     color: rgb(58, 51, 51);
      padding: 30px 50px;
-     font-size: 15px;
      text-decoration: none;
+     
+ }
+ */
+
+ .flex-container {
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: space-around;
+     padding: 0;
+     margin: 0;
+     list-style: none;
+     
+ }
+
+ 
+ .flex-item {
+    
+    padding: 5px;
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    line-height: 150px;
+   
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    
+   
+    
+  }
+ 
+
+
  }
