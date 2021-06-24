@@ -93,37 +93,6 @@ header nav ul li a  {
 
 
 /* --------------------------------------------------------------------  */
-/*
-.container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    align-content: flex-start;
-    color: rgb(58, 51, 51);
-    
-  }
- .container h2  {
-    margin: 20px 0;
-    font-size: 50px;
-    border-right: 5px solid blue;
-    padding-right: 30px;
-    padding-left: 250px;
- }
-
- .container p, pre  {
-     font-size: 20px;
-     
- }
-
-*/
-
-
-
-
-
-
 
 
  #work {
@@ -145,77 +114,53 @@ header nav ul li a  {
 
 /* ----------------------------------------------------------------------*/
 
-footer {
+.contact-info {
+    color:rgb(58, 51, 51); 
+    width: 100%;
+    margin: 0, auto;
+
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: none;
+    justify-content: none;
+    align-items:flex-start;
     flex: 1;
-    color:rgb(58, 51, 51);
-    padding-top: 30px;
-  }
- 
-footer h2 {
-     margin: 10px 0;
-     font-size: 50px;
-     border-right: 5px solid blue;
-     padding-right: 30px;
-     padding-left: 0;
-     padding-top: 5px;
-     flex-shrink: 2 ;
-     
-  }
-  /* ----------------------------------------------------------------------*/
- /*
-footer nav ul {
-     display: flex;
-     flex-wrap: wrap;
-     justify-content: space-around;
+}
 
-     list-style: none;
-     border-bottom: 5px solid rgb(152, 152, 223);
-     padding-right: 100px;
-     padding-bottom: 20px;
-     padding-top: 20px;
-     box-sizing: content-box;
-     width: 100%;
-     align-items: center;
-     
- }
- 
-footer nav ul li a  {
-    color: rgb(58, 51, 51);
-     padding: 30px 50px;
-     text-decoration: none;
-     
- }
- */
-
- .flex-container {
-     display: flex;
-     flex-flow: row wrap;
-     justify-content: space-around;
-     padding: 0;
-     margin: 0;
-     list-style: none;
-     
- }
-
- 
- .flex-item {
-    
-    padding: 5px;
-    width: 200px;
-    height: 50px;
-    margin-top: 10px;
-    line-height: 150px;
-   
-    font-weight: bold;
-    font-size: 20px;
+.contactme h2 {
+    width: 45%;
+    height: 120px;
     text-align: center;
+    padding-right: 55px;
+    padding-left: 5px;
+    font-size: 50px;
+    border-right: 5px solid blue;
+    flex-grow: 2;
     
-   
+}
+ 
+footer nav ul {
     
-  }
+    box-sizing: content-box;
+    width: 120%;
+    height: 120px;
+
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;   
+    box-sizing: content-box;
+    list-style: none;
+    margin-top: 60px;
+}
+
+footer nav ul li a {
+
+    font-size: 30px;
+    border-bottom: 5px solid rgb(152, 152, 223);
+    padding-bottom: 15px ;
+    text-decoration: none;
+    
+}  
+  
  
 
 
