@@ -18,6 +18,9 @@ header {
 header h1  {
    background: rgb(152, 152, 223); 
    margin: 30px;
+  
+   padding-left: 30px;
+   padding-right: 30px;
 }  
 
 header a  {
@@ -47,7 +50,7 @@ header nav ul li a  {
 .hero {
     height: 300px;
     width: 100%;
-    background-image: url("./assets/images/portfolio-img.JPEG"); 
+    background-image: url("./assets/images/hero.JPEG"); 
     background-size: cover;
     background-position: center;
     position: relative;
@@ -125,6 +128,12 @@ content {
     width: 600px;
     margin-left: 40px;
     margin-top: 10px;
+    box-shadow: 5px 10px 15px black;
+}
+
+img:hover  {
+
+    box-shadow: 5px 10px 15px goldenrod;
 }
 
 /* ------------------------- Contact Me's  aside, ul  & a elements ---------------------------------------------*/
