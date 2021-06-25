@@ -8,6 +8,11 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+
+  position:sticky;
+  top: 0;
+
+  z-index: 9999;
 }
 
 header h1  {
@@ -31,7 +36,6 @@ header nav ul {
     list-style: none;
     border-bottom: 5px solid rgb(152, 152, 223);
     padding-bottom: 10px;
-    
 }
 
 header nav ul li a  {
@@ -39,129 +43,123 @@ header nav ul li a  {
     padding: 30px 50px;
     font-size: 25px;
 }
-
+/* ---------------------------------------- Hero Section ----------------------------------------------------------*/
 .hero {
     height: 300px;
     width: 100%;
-    background-image: url("./assets/images/mountains.JPEG"); 
+    background-image: url("./assets/images/portfolio-img.JPEG"); 
     background-size: cover;
     background-position: center;
-    
-}   
+    position: relative;
+} 
 
-/* --------------------------------------------------------------------  */
-.about-info {
-    width: 100%;
-    margin: 0, auto;
-
-    display: flex;
-    flex-wrap: none;
-    justify-content: space-around;
-    align-items: stretch;
-    flex: 1;
-}
-.about { 
-    margin: 5px;
-    color:rgb(58, 51, 51);
-    
-    
-}
-.about h2  {
-    width: 70%;
-    height: 360px;
-    text-align: center;
-    padding-right: 30px;
-    padding-left: 30px;
-    font-size: 50px;
-    border-right: 5px solid blue;
-    flex-grow: 2;
-   
-}
-.about h3, .about h4 {
-    width: 96%;
-    font-size: 20px;
-    text-align: left;
-    padding: 5px;
-    margin-left: 30px;
-    margin-top: 35px;
-    
-}
-.about p {
-     font size: 25px;
-     margin-left: 30px;
-     }
-
-
-/* --------------------------------------------------------------------  */
-
-
- #work {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: flex-start;
+.hero p {
+    background-color: rgb(152, 152, 223);
     color: rgb(58, 51, 51);
+    font-size: 20px;
+    width: 300px;
+    margin: 0;
+    align-items:center;
+
+    position: absolute;
+    bottom: 20px;
+    right: 35px;
     
-  }
- #work h2  {
-    margin: 20px 0;
-    font-size: 50px;
-    border-right: 5px solid blue;
-    padding-right: 30px;
-    padding-left: 350px;
- }
+}
 
-/* ----------------------------------------------------------------------*/
-
-.contact-info {
-    color:rgb(58, 51, 51); 
+/* ----------------------------- General flex elements for About Me, Work & Contact Me ---------------------------------------  */
+.flex-row {
     width: 100%;
-    margin: 0, auto;
-
+   
     display: flex;
-    flex-wrap: none;
-    justify-content: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items:flex-start;
     flex: 1;
 }
+.col-one-quarter {
+    width: 25%;
+}
+.col-three-quarter {
+    width: 75%;
+}
 
-.contactme h2 {
-    width: 45%;
-    height: 120px;
+/* ----------------------------- p elements for About Me  ---------------------------------------  */
+
+.col-one-quarter p {
     text-align: center;
-    padding-right: 55px;
-    padding-left: 5px;
     font-size: 50px;
+    color:rgb(58, 51, 51);
     border-right: 5px solid blue;
-    flex-grow: 2;
+    padding-right: 30px;
+    height: 480px;
+}
+
+.col-three-quarter p {
+    font-size: 25px;
+    text-align: left;
     
+    color:rgb(58, 51, 51);
+    padding: 5px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+/* ------------------------------------ Work --------------------------------  */
+.col-one-quarter h4 {
+    text-align: center;
+    font-size: 50px;
+    color:rgb(58, 51, 51);
+    border-right: 5px solid blue;
+    padding-right: 30px;
+    height: 2500px;
+}
+
+content {   
+    width: 80%;
+    display: inline-block;
+    position: relative;
+}
+.projects img {
+    height: 200px;
+    width: 600px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+/* ------------------------- Contact Me's  aside, ul  & a elements ---------------------------------------------*/
+.col-one-quarter aside {
+    text-align: center;
+    font-size: 50px;
+    color:rgb(58, 51, 51);
+    border-right: 5px solid blue;
+    padding-right: 30px;
+    height: 100px;
 }
  
-footer nav ul {
+.col-three-quarter ul {
     
     box-sizing: content-box;
-    width: 140%;
-    height: 120px;
+    width: 100%;
+    height: 100px;
 
     display: flex; 
     flex-wrap: wrap;
-    justify-content: space-between;   
+    justify-content:space-around ;   
     box-sizing: content-box;
     list-style: none;
-    margin-top: 60px;
+   
+    margin-top: 15px;
 }
 
-footer nav ul li a {
+.col-three-quarter ul li a {
 
-    font-size: 30px;
+    font-size: 20px;
     border-bottom: 5px solid rgb(152, 152, 223);
-    padding-bottom: 15px ;
+    padding: 0 0 15px 10px;
+    margin: 0 10px 0 0;
     text-decoration: none;
-    
 }  
-  
+
  
-
-
- }
+}
