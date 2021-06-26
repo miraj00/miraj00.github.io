@@ -3,49 +3,59 @@ body {
     font-family: helvetica, Arial, Helvetica, sans-serif;
 }
 
+
 header {
   background: rgb(58, 51, 51);
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-
   position:sticky;
   top: 0;
 
   z-index: 9999;
+  height: 120px;
 }
 
-header h1  {
-   background: rgb(152, 152, 223); 
-   margin: 30px;
-  
-   padding-left: 30px;
-   padding-right: 30px;
-}  
+/*--------------------------------------- Header Section------------------------------------------------------------*/
 
-header a  {
-    text-decoration: none;
-    color: rgb(58, 51, 51);
+header .col-one-quarter h1 {
+    text-align: center;
+    font-size: 50px;
+    color:rgb(58, 51, 51);
+    background:rgb(152, 152, 223);
+    padding-top: 10px;
+    height: 60px;
+ }
+
+ header .col-one-quarter h1:hover  {
+
+    box-shadow: 10px 10px 15px rgba(255, 255, 255, 1);
 }
 
-header nav {
-    margin: 20px 0;
-}
+ header .col-one-quarter a  {
+     text-decoration: none;
+ }
 
-header nav ul {
-    display: flex;
+.col-three-quarter ul {
+    
+   
+    display: flex; 
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-between;   
+       
     list-style: none;
-    border-bottom: 5px solid rgb(152, 152, 223);
-    padding-bottom: 10px;
+    padding-top: 35px;
+    margin-top: 10px;
+  
 }
 
-header nav ul li a  {
-    color: rgb(152, 152, 223);
-    padding: 30px 50px;
+header .col-three-quarter ul li a {
+
     font-size: 25px;
-}
+    color: rgb(152, 152, 223);
+    border-bottom: 5px solid rgb(152, 152, 223);
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 0 0;
+    text-decoration: none;
+    
+}  
 /* ---------------------------------------- Hero Section ----------------------------------------------------------*/
 .hero {
     height: 300px;
@@ -93,7 +103,7 @@ header nav ul li a  {
     text-align: center;
     font-size: 50px;
     color:rgb(58, 51, 51);
-    border-right: 5px solid blue;
+    border-right: 5px solid rgb(58, 51, 51);
     padding-right: 30px;
     height: 480px;
 }
@@ -113,9 +123,10 @@ header nav ul li a  {
     text-align: center;
     font-size: 50px;
     color:rgb(58, 51, 51);
-    border-right: 5px solid blue;
+    border-right: 5px solid rgb(58, 51, 51);
     padding-right: 30px;
     height: 2500px;
+    
 }
 
 content {   
@@ -128,12 +139,12 @@ content {
     width: 600px;
     margin-left: 40px;
     margin-top: 10px;
-    box-shadow: 5px 10px 15px black;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 img:hover  {
 
-    box-shadow: 5px 10px 15px goldenrod;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 1);
 }
 
 /* ------------------------- Contact Me's  aside, ul  & a elements ---------------------------------------------*/
@@ -141,7 +152,7 @@ img:hover  {
     text-align: center;
     font-size: 50px;
     color:rgb(58, 51, 51);
-    border-right: 5px solid blue;
+    border-right: 5px solid rgb(58, 51, 51);
     padding-right: 30px;
     height: 100px;
 }
@@ -164,6 +175,7 @@ img:hover  {
 .col-three-quarter ul li a {
 
     font-size: 20px;
+    color:rgb(58, 51, 51);
     border-bottom: 5px solid rgb(152, 152, 223);
     padding: 0 0 15px 10px;
     margin: 0 10px 0 0;
@@ -172,3 +184,5 @@ img:hover  {
 
  
 }
+
+
