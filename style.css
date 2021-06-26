@@ -15,7 +15,7 @@ header {
 
 /*--------------------------------------- Header Section------------------------------------------------------------*/
 
-header .col-one-quarter h1 {
+header .col-one-quarter h3 {
     text-align: center;
     font-size: 50px;
     color:rgb(58, 51, 51);
@@ -128,12 +128,10 @@ header .col-three-quarter ul li a {
 
 /* ------------------------------------ Work --------------------------------  */
 
+
 .content {   
     border-left: 5px solid rgb(58, 51, 51);
- /* width: 80%;
-    display: inline-block;
-    position: relative;   */
- }
+  }
 .projects img {
     height: 200px;
     width: 600px;
@@ -145,7 +143,10 @@ header .col-three-quarter ul li a {
 .content .big-img {
    margin-left: 40px;
 }
-
+.content .big-img img {
+   height: 600;
+   width: 100%; 
+}
 
 img:hover  {
 
@@ -183,22 +184,47 @@ img:hover  {
 
 
  
-/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+/* -----------------------MEDIA QUERY FOR MOBILE PHONES AND SMALLER ------------------------------------------------ */
 
 @media screen and (max-width: 980px) {
-    header .col-one-quarter h1 {
-     font-size: 30px;
+    header .col-one-quarter h3 {
+        font-size: 20px;
+       }
+
+   
+    .col-one-quarter p {
+     font-size: 20px;
     }
+
     header .col-three-quarter ul li a {
 
-        font-size: 15px;
+        font-size: 10px;
+    }
+
+    .col-three-quarter ul {
+        width: 100%;
+        margin-left: auto; 
+    
     }
     .col-one-quarter {
-        width: 5%;
+       width: 15%;
+    }
+    
+    .big-img img {
+        height: 200;
+        width: 410;
+     }
+     
+    .projects img {
+        height: 100px;
+        width: 300px;
     }
 
+    .col-three-quarter ul li a {
 
-
+        font-size: 10px;
+    }
+    
 @media screen and (max-width: 575px) {
     .header {
         width: 100%;
