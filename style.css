@@ -24,7 +24,7 @@ header .col-one-quarter h3 {
     height: 60px;
  }
 
- header .col-one-quarter h1:hover  {
+ header .col-one-quarter h3:hover  {
 
     box-shadow: 10px 10px 15px rgba(255, 255, 255, 1);
 }
@@ -78,7 +78,15 @@ header .col-three-quarter ul li a {
     position: absolute;
     bottom: 20px;
     right: 35px;
-    
+}
+.hero img {
+
+    position: absolute;
+    bottom: 20px;
+    left: 35px;
+    width: 300px;
+    height: 300px;
+    padding-left: 45px;
 }
 
 /* ----------------------------- General flex elements for About Me, Work & Contact Me ---------------------------------------  */
