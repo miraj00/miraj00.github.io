@@ -153,7 +153,7 @@ header .col-three-quarter ul li a {
 }
 .content .big-img img {
    height: 600;
-   width: 92%; 
+   width: 94%; 
 }
 
 img:hover  {
@@ -218,13 +218,14 @@ img:hover  {
        width: 15%;
     }
     
-    .big-img img {
+    .content .big-img {
         height: 200;
-        width: 410;
+        width: 61%;
      }
+
      
     .projects img {
-        height: 100px;
+        height: 100px;              
         width: 300px;
     }
 
@@ -253,3 +254,5 @@ img:hover  {
       width: 100%;
     }
 */
+    }
+}
